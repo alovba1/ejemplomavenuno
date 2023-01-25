@@ -30,7 +30,7 @@ import org.junit.internal.AssumptionViolatedException;
 class Base {
 
     protected void run() {
-        //.out.println("MENSAJE DE INICIO");
+        System.out.println("MENSAJE DE INICIO");
         double r = Math.random();
         //System.out.println("Mensaje OK OK");
         if (r < 0.1) {
