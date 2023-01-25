@@ -32,7 +32,7 @@ class Base {
     protected void run() {
         System.out.println("MENSAJE DE INICIO");
         double r = Math.random();
-        //System.out.println("Mensaje OK OK");
+        System.out.println("Mensaje OK OK");
         if (r < 0.1) {
             fail("oops");
         } else if (r < 0.2) {
