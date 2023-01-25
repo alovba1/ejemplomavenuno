@@ -31,6 +31,7 @@ class Base {
 
     protected void run() {
         System.out.println("MENSAJE DE INICIO");
+        System.out.println("MENSAJE DE INICIO DOS");
         double r = Math.random();
         System.out.println("Mensaje OK OK");
         if (r < 0.1) {
