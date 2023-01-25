@@ -31,7 +31,6 @@ class Base {
 
     protected void run() {
         //System.out.println("MENSAJE DE INICIO");
-
         double r = Math.random();
 
         if (r < 0.1) {
